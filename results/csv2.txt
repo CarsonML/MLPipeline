@@ -1,0 +1,2 @@
+{"dataLoader": "CSVLoader", "dataPath": "./data/sat_data.csv", "preprocessing": ["fillnan", "lowercase"], "preprocessingPath": "./preprocessed/", "features": ["count"], "featureKwargs": [{"ngram_range": [1, 3], "analyzer": "word"}], "featurePath": "./features/", "model": "Naive Bayes", "modelKwargs": {}, "modelPath": "./models/", "metrics": ["f1"], "metricsKwargs": [{"average": "micro"}], "metricPath": "./metrics/", "outputPath": "./results/", "experimentName": "csv2.txt"}
+f1,0.310000

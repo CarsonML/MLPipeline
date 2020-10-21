@@ -1,0 +1,16 @@
+{"dataLoader": "CSVLoader",
+ "dataPath": "./data/sat_data.csv",
+ "preprocessing": ["fillnan", "lowercase"],
+ "preprocessingPath": "./preprocessed/",
+ "features": ["tfidf"],
+ "featureKwargs": [{"ngram_range": [1, 2], "analyzer": "word"}],
+ "featurePath": "./features/",
+ "model": "SVM",
+ "modelKwargs": {},
+ "modelPath": "./models/",
+ "metrics": ["precision", "recall"],
+ "metricsKwargs": [{"average":"macro"}, {"average":"macro"}],
+ "metricPath": "./metrics/",
+ "outputPath": "./results/",
+ "experimentName": "csv3.txt"
+}

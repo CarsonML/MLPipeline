@@ -1,0 +1,2 @@
+{"dataLoader": "WiliLoader", "dataPath": "./data", "preprocessing": ["fillnan", "lowercase"], "preprocessingPath": "./preprocessed/", "features": ["tfidf"], "featureKwargs": [{"ngram_range": [1, 3], "analyzer": "word"}], "featurePath": "./features/", "model": "SVM", "modelKwargs": {"kernel": "linear"}, "modelPath": "./models/", "metrics": ["accuracy"], "metricPath": "./metrics/", "outputPath": "./results/", "experimentName": "Wili1.txt"}
+accuracy,0.798467

@@ -1,0 +1,2 @@
+{"dataLoader": "CSVLoader", "dataPath": "./data/sat_data.csv", "preprocessing": ["fillnan", "lowercase"], "preprocessingPath": "./preprocessed/", "features": ["count"], "featureKwargs": [{"ngram_range": [1, 1], "analyzer": "word"}], "featurePath": "./features/", "model": "Logistic Regression", "modelKwargs": {"penalty": "l2"}, "modelPath": "./models/", "metrics": ["accuracy"], "metricPath": "./metrics/", "outputPath": "./results/", "experimentName": "csv1.txt"}
+accuracy,0.454545
