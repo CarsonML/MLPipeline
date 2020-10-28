@@ -62,7 +62,7 @@ These specify the way the text is turned into vectors. If multiple ways are sele
 
 **Parts of Speech** ('pos' in config): Converts the text into its parts of speech, and then uses a count vectorizer on that. Cool in theory, but this one has never helped me much
 
-**GloVe** (BROKEN, not in config yet): This is all coded but I haven't tested it, and therefore have not added it to the lookup (if someone wanted to try and enable it, just add a reference to the features.py file. But it's probably broken. This is a work in progress, update likely coming soon). Vectorizes each word in the given text using [Stanford's GloVe vectors](https://nlp.stanford.edu/projects/glove/) , then squares, adds, and normalizes them to get the final vector
+**GloVe** (BROKEN, not in config yet): This is all coded but I haven't tested it, and therefore have not added it to the lookup (if someone wanted to try and enable it, just add a reference to the features.py file.Also download the 6B glove file from that link and move that folder to the pipeline folder) But it's probably broken. This is a work in progress, update likely coming soon). Vectorizes each word in the given text using [Stanford's GloVe vectors](https://nlp.stanford.edu/projects/glove/) , then squares, adds, and normalizes them to get the final vector
 
 Count and TFIDF are straight scikitlearn, so look there for kwargs. Most important is probably which n grams to use
 
