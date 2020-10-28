@@ -95,7 +95,7 @@ These are again fairly standard ML metrics. Multiple can be used at one time. Ag
 The summary of the model and its metrics is printed to conosle and also saved in the output file
 
 # Use Cases
-Really nothing specific. Anything where you have input text and want to classify it into different categories. Some of the things I've used it for are classifying wikipedia articles into their lagnuage (works quite well) or trying to score SAT essays (works quite poorly, probably a good thing). But the sky's your oyster!
+Really nothing specific. Anything where you have input text and want to classify it into different categories. Some of the things I've used it for are classifying wikipedia articles into their lagnuage (works quite well) or trying to score SAT essays (works quite poorly, probably a good thing). Those two datasets are included. As well as a bonus one about reviews I haven't worked with yet. But the sky's your oyster!
 
 
 
