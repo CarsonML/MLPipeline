@@ -37,6 +37,7 @@ The custom model is based off the config file (sample one included) that has the
 "outputPath": "./results/",
 "experimentName": "csv8.txt"
 }`
+
 Most of these are pretty self explanatory, but in the interests of clarity: `dataLoader` is the data format, `CSVLoader` for CSV, `JSONLoader` for JSON, and `WiliLoader` for Wili. `dataPath` is the file path to the input data. `preprocessing` is a list of all the preprocessing steps to run. `preprocessingPath` is the file path where it will store/load the preprocessed results. `features` is the list of features/vectorizers to use (vectors are concatenated for more than one feature). `featureKwargs` is a list of the kwargs correspoinding to each feature. `featurePath` is where it stores the features or looks for them if they have aready been completed. `model` of course tells you which model to use (can only use one, for now), and `modelKwargs` are the kwargs for the model. `metrics` are which metrics to use, and `metricKwargs` is a list of their kwargs. `metricPath` is the filepath to store/load the metrics, and `outputPath` is the file path to store the results. `experimentName` is just text put in the results file.
 
 # Preprocessing 
