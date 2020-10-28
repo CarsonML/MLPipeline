@@ -45,7 +45,7 @@ class Preprocessor():
 		return data
 	def resolve(self, step):
 		#Resolve a specific config string to function pointers or list thereof
-		configurations = {'fillnan':self.fillnan,'lowercase':self.lowercase}
+		configurations = {'fillnan':self.fillnan,'lowercase':self.lowercase, 'stopwords':self.removeStopwords}
 		#These asserts will raise an error if the config string is not found
 		assert step in configurations
 		return configurations[step]
